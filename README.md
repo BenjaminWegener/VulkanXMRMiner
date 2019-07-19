@@ -7,7 +7,8 @@ You have to edit the config.json to adjust it to your wallet address or delete t
 Start the miner using the 'Miner.bat' batch file. Only tested on Windows10 x64 with Adrenaline 19.7.2.<br/>
 here is the official thread: https://youtu.be/5bdiVuN5IQw please post your optimizations in the comments. (and like subscribe etc)<br/>
 known bugs: not optimized, freezes Win10 if on too high priority or worksize, low hashrate<br/>
-if you want to donate, use monero: 83ofy7hT6MEfyrMhiiWNi7GnzHUQF5NPWDghUNjcGR8RdZDyvNSDyJsgZxzN7ZBvGb9mjaTRDw56ZYW6F35RowfjA6rCiQJ
+if you want to donate, use monero: 83ofy7hT6MEfyrMhiiWNi7GnzHUQF5NPWDghUNjcGR8RdZDyvNSDyJsgZxzN7ZBvGb9mjaTRDw56ZYW6F35RowfjA6rCiQJ<br/>
+download: https://github.com/BenjaminWegener/amdNaviMiner/releases
 </b>
 
 
