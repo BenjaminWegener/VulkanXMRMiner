@@ -1,6 +1,12 @@
 # amdNaviMiner (based on vulkanXMRminer)
 
-<b>This is modded to work optimized with the new AMD Navi GPUS: rx5700 (xt)</b>
+<b>This is modded to work optimized with the new AMD Navi GPUS: rx5700 (xt)<br/>
+I didn't touch the dev fee of the original author and I didn't touch the executables. <br/>
+I just added a batch file for startup and semioptimized config file. 
+You have to edit the config.json to adjust it to your wallet address or delete the config.json for guided setup.<br/>
+Start the miner using the 'Miner.bat' batch file. Only tested on Windows10 x64 with Adrenaline 19.7.2.<br/>
+here is the official thread: please post your optimizations in the comments. (and like subscribe etc)<br/>
+known bugs: not optimized, freezes Win10 if on too high priority or worksize, low hashrate</b>
 
 This program is a Vulkan SPIR-V based miner for the Cryptonight family:<br/><br/>
 <img src="https://monero.org/wp-content/uploads/2015/03/logo-big.jpg" height="67" width="250" >&nbsp;&nbsp;&nbsp;
@@ -95,22 +101,15 @@ For monitoring in GPU farms, there is also a json url http://host:port/status.js
 <img src="https://raw.githubusercontent.com//BenjaminWegener/amdNaviMiner/master/img/json_status.png" height="107" width="89" >
 
 # Benchmarks
-## on CN V2 (Variant 2)
-
 
 ## on CN/R (CryptonightR - Variant 4)
 <span style="font-family: monospace;">
 Vega56 1500/1075&nbsp;: 1800 H/s on Windows 10<br />
-</span>
-
-## on CN Light V7 (Aeon)
-<span style="font-family: monospace;">
-Vega56 1500/1075&nbsp;: 3970 H/s on Windows 10<br />
+5700 1720/875&nbsp;: 600 H/s on Windows 10<br />
 </span>
 
 
 # Dev fee
 Building and maintaining a miner programm is a significant effort :stuck_out_tongue:. Miner will mine on fee pool one minute every one hour and 40 minutes on average. (1% of the time).
 
-You are welcomed to make a donation:<br/>
-XMR : 4Cf2TfMKhCgJ2vsM3HeBUnYe52tXrvv8X1ajjuQEMUQ8iU8kvUzCSsCEacxFhEmeb2JgPpQ5chdyw3UiTfUgapJBhJkqyxXSJwvNRnNnnh
+
