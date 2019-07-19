@@ -1,14 +1,15 @@
 # amdNaviMiner (based on vulkanXMRminer)
 
-<b>This is modded to work optimized with the new AMD Navi GPUS: rx5700 (xt)<br/>
-I didn't touch the dev fee of the original author and I didn't touch the executables. <br/>
-I just added a batch file for startup and semioptimized config file. 
-You have to edit the config.json to adjust it to your wallet address or delete the config.json for guided setup.<br/>
-Start the miner using the 'Miner.bat' batch file. Only tested on Windows10 x64 with Adrenaline 19.7.2.<br/>
-here is the official thread: https://youtu.be/5bdiVuN5IQw please post your optimizations in the comments. (and like subscribe etc)<br/>
-known bugs: not optimized, freezes Win10 if on too high priority or worksize, low hashrate<br/>
-if you want to donate, use monero: 48D4if15HnFhykHzeLSuVFaauV25TA671BuT4g4PJ9jPZewKWCwapca7thBH4e5WwJ2TK1EcxQEofjoapbvsitwE8rRKJJb<br/>
-download: https://github.com/BenjaminWegener/amdNaviMiner/releases
+<b>
+    - This is modded to work optimized with the new AMD Navi GPUS: rx5700 (xt)<br/>
+    - I didn't touch the dev fee of the original author and I didn't touch the executables. <br/>
+    - I just added a batch file for startup and semioptimized config file. 
+    - You have to edit the config.json to adjust it to your wallet address or delete the config.json for guided setup.<br/>
+    - Start the miner using the 'Miner.bat' batch file. Only tested on Windows10 x64 with Adrenaline 19.7.2.<br/>
+    - here is the official thread: https://youtu.be/5bdiVuN5IQw please post your optimizations in the comments. (and like subscribe etc)<br/>
+    - known bugs: not optimized, freezes Win10 if on too high priority or worksize, low hashrate<br/>
+    - if you want to donate, use monero: 48D4if15HnFhykHzeLSuVFaauV25TA671BuT4g4PJ9jPZewKWCwapca7thBH4e5WwJ2TK1EcxQEofjoapbvsitwE8rRKJJb<br/>
+    - download: https://github.com/BenjaminWegener/amdNaviMiner/releases
 </b>
 
 
