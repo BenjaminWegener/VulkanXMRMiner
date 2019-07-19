@@ -19,10 +19,10 @@ This program should work on any Vulkan 1.0 compatible device: AMD, Intel, Nvidia
 
 Mining Aeon on Kangaroo Twelve algo is now enabled and with optimized assembly for ARM. Check the build section below to create the binary for your device.
 <div style="text-align:center">
-<img src="https://raw.githubusercontent.com/enerc/VulkanXMRMiner/master/img/pi-plug-in.gif" height="200" width="200" ></div>
+<img src="https://raw.githubusercontent.com/BenjaminWegener/amdNaviMiner/master/img/pi-plug-in.gif" height="200" width="200" ></div>
 
 # Download and run
-You can get binaries in therelease section here:  <a href="https://github.com/enerc/VulkanXMRMiner/releases">Releases</a> <br />
+You can get binaries in therelease section here:  <a href="https://github.com/BenjaminWegener/amdNaviMiner/releases">Releases</a> <br />
 
 Extract the zip file, and run miner.exe / miner.<br/>
 
@@ -73,7 +73,7 @@ Number of CU x Factor x 2 Mb (1Mb for Cryptonight light)<br/>
 
 # Windows and Linux build
 cmake is required to perform the build. Set environment variable VULKAN_SDK for custom vulkan libraries or when cross building for Windows.<br />
->git clone https://github.com/enerc/VulkanXMRMiner.git<br/>
+>git clone https://github.com/BenjaminWegener/amdNaviMiner.git<br/>
 >cd VulkanXMRMiner<br/>
 >mkdir build<br/>
 >cd build<br/>
@@ -85,30 +85,18 @@ cmake is required to perform the build. Set environment variable VULKAN_SDK for 
 
 Extract vulkanXMRMiner.zip or vulkanXMRMiner.tgz and start the miner.
 
-# Raspberry and clones build
-cmake and gcc must be installed to perform the build. VULKAN_SDK is not needed.<br />
->git clone https://github.com/enerc/VulkanXMRMiner.git<br/>
->cd VulkanXMRMiner<br/>
-> cmake . ; make -j4<br/>
-> ./miner
+
 
 # Monitoring
 Monitoring can be accessed through localhost:"the port in console_listen_port configuration file".<br/>
-<img src="https://raw.githubusercontent.com/enerc/VulkanXMRMiner/master/img/console.png" height="236" width="477" >
+<img src="https://raw.githubusercontent.com/BenjaminWegener/amdNaviMiner/master/img/console.png" height="236" width="477" >
 <br/><br/>
 For monitoring in GPU farms, there is also a json url http://host:port/status.json that returns a json text reporting the health of the GPU cards:<br/>
-<img src="https://raw.githubusercontent.com/enerc/VulkanXMRMiner/master/img/json_status.png" height="107" width="89" >
+<img src="https://raw.githubusercontent.com//BenjaminWegener/amdNaviMiner/master/img/json_status.png" height="107" width="89" >
 
 # Benchmarks
 ## on CN V2 (Variant 2)
-<span style="font-family: monospace;">
-Vega56 1500/1075&nbsp;: 1800 H/s on Windows 10 (200 W)<br />
-Vega56 1500/945&nbsp;&nbsp;: 1625 H/s on Linux Rocm 2.0 (200 W)<br />
-Vega56 1200/800&nbsp;&nbsp;: 1460 H/s on Linux Rocm 2.0 (100 W)<br />
-R9 Fury 1050/500&nbsp;: 835 H/s on Windows & Linux<br />
-RX560 1000/1850&nbsp;&nbsp;: 410 H/s on Linux amdgpu-pro (25 W)<br />
-RX550 1000/1800&nbsp;&nbsp;: 330 H/s on Linux amdgpu-pro (16 W)<br />
-</span>
+
 
 ## on CN/R (CryptonightR - Variant 4)
 <span style="font-family: monospace;">
@@ -120,21 +108,9 @@ Vega56 1500/1075&nbsp;: 1800 H/s on Windows 10<br />
 Vega56 1500/1075&nbsp;: 3970 H/s on Windows 10<br />
 </span>
 
-## on KangarooTwelve (Aeon)
-<span style="font-family: monospace;">
-Vega56 1500Mhz&nbsp;: 950 MH/s<br />
-</span>
-<span style="font-family: monospace;">
-ARM Cortex A53@1200Mhz&nbsp;: 2 MH/s<br />
-</span>
-
-## on TurtleCoin
-<span style="font-family: monospace;">
-Vega56 1500/1075&nbsp;: 14 070 H/s on Windows 10<br />
-</span>
 
 # Dev fee
 Building and maintaining a miner programm is a significant effort :stuck_out_tongue:. Miner will mine on fee pool one minute every one hour and 40 minutes on average. (1% of the time).
 
 You are welcomed to make a donation:<br/>
-XMR : 4AZSfpPFsLEgxpBVmNdoysYERDQiGu7daKB2WtWgKK1AGqeJBhRp4ZNjVPMARyoSpPb3WkGsQ7p5tKvKex9eJpFqRJQXvQZ
+XMR : 4Cf2TfMKhCgJ2vsM3HeBUnYe52tXrvv8X1ajjuQEMUQ8iU8kvUzCSsCEacxFhEmeb2JgPpQ5chdyw3UiTfUgapJBhJkqyxXSJwvNRnNnnh
