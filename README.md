@@ -1,6 +1,8 @@
-# VulkanXMRMiner
+# amdNaviMiner (based on vulkanXMRminer)
 
-This program is a Vulkan SPIR-V based miner for the Cryptonight familly:<br/><br/>
+<b>This is modded to work optimized with the new AMD Navi GPUS: rx5700 (xt)</b>
+
+This program is a Vulkan SPIR-V based miner for the Cryptonight family:<br/><br/>
 <img src="https://monero.org/wp-content/uploads/2015/03/logo-big.jpg" height="67" width="250" >&nbsp;&nbsp;&nbsp;
 <img src="https://www.aeon.cash/branding/aeon_logo_32x32.png" height="60" width="60" >
 <img src="http://wownero.org/images/wow.png" height="40" width="160" >
