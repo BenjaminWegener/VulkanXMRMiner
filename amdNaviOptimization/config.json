@@ -1,0 +1,67 @@
+{
+ "crypto" : "monero",
+ "pool_address" : "monero.ingest.cryptoknight.cc:4442",
+ "wallet_address" : "48D4if15HnFhykHzeLSuVFaauV25TA671BuT4g4PJ9jPZewKWCwapca7thBH4e5WwJ2TK1EcxQEofjoapbvsitwE8rRKJJb",
+ "pool_password" : "x",
+ "debug_network" : "true",
+ "console_listen_port" : "999",
+ "console_refresh_rate" : "3",
+ "cards" : [
+  {
+    "index"    : "0",
+    "cu"       : "36",
+    "factor"   : "8",
+    "worksize" : "8",
+    "mem_chunk": "2"
+  },
+  {
+    "index"    : "0",
+    "cu"       : "36",
+    "factor"   : "8",
+    "worksize" : "8",
+    "mem_chunk": "2"
+  }, 
+  {
+    "index"    : "0",
+    "cu"       : "36",
+    "factor"   : "8",
+    "worksize" : "8",
+    "mem_chunk": "2"
+  },
+  {
+    "index"    : "0",
+    "cu"       : "36",
+    "factor"   : "8",
+    "worksize" : "8",
+    "mem_chunk": "2"
+  }, 
+  {
+    "index"    : "0",
+    "cu"       : "36",
+    "factor"   : "8",
+    "worksize" : "8",
+    "mem_chunk": "2"
+  },
+  {
+    "index"    : "0",
+    "cu"       : "36",
+    "factor"   : "8",
+    "worksize" : "8",
+    "mem_chunk": "2"
+  }, 
+  {
+    "index"    : "0",
+    "cu"       : "36",
+    "factor"   : "8",
+    "worksize" : "8",
+    "mem_chunk": "2"
+  },
+  {
+    "index"    : "0",
+    "cu"       : "36",
+    "factor"   : "8",
+    "worksize" : "8",
+    "mem_chunk": "2"
+  }, 
+ ]
+}
