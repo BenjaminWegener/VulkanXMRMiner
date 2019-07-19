@@ -5,8 +5,13 @@ I didn't touch the dev fee of the original author and I didn't touch the executa
 I just added a batch file for startup and semioptimized config file. 
 You have to edit the config.json to adjust it to your wallet address or delete the config.json for guided setup.<br/>
 Start the miner using the 'Miner.bat' batch file. Only tested on Windows10 x64 with Adrenaline 19.7.2.<br/>
-here is the official thread: please post your optimizations in the comments. (and like subscribe etc)<br/>
-known bugs: not optimized, freezes Win10 if on too high priority or worksize, low hashrate</b>
+here is the official thread: https://youtu.be/5bdiVuN5IQw please post your optimizations in the comments. (and like subscribe etc)<br/>
+known bugs: not optimized, freezes Win10 if on too high priority or worksize, low hashrate<br/>
+if you want to donate, use monero: 83ofy7hT6MEfyrMhiiWNi7GnzHUQF5NPWDghUNjcGR8RdZDyvNSDyJsgZxzN7ZBvGb9mjaTRDw56ZYW6F35RowfjA6rCiQJ
+</b>
+
+
+--------------------------------------------------------------------------------
 
 This program is a Vulkan SPIR-V based miner for the Cryptonight family:<br/><br/>
 <img src="https://monero.org/wp-content/uploads/2015/03/logo-big.jpg" height="67" width="250" >&nbsp;&nbsp;&nbsp;
